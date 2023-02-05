@@ -1,0 +1,78 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .man {
+    margin-left: -440px;
+    position: relative;
+  }
+  
+  .free {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .con {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .input {
+    outline: none;
+    border: 1px solid black;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.2s;
+  }
+  
+  .input:focus {
+    border: 1px solid black;
+    box-shadow: 0 0 0 1px black;
+  }
+  .btn {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #414141;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: black;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .bell {
+      width: 95%;
+      margin-top: 80px;
+    }
+  
+    .flex {
+      display: block;
+    }
+  
+    .man {
+      margin-left: 50px;
+      margin-top: -350px;
+      width: 70%;
+    }
+    .logo {
+      width: 80%;
+      margin-left: 35px;
+    }
+    .cons {
+      margin-left: 4px;
+    }
+  }
